@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Assets/StyleSheets/style.css">
+  <!--Search--> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script defer src="/Assets/JavaScripts/discord.js"></script>
+  <script defer src="/Assets/JavaScripts/loader.js"></script>
+  <script defer src="/Assets/JavaScripts/modal.js"></script>
+  <script defer src="/Assets/JavaScripts/search.js"></script>
+  <title>Unreal Digital</title>
+  <meta name="description" content="Explore Unreal Digital for affordable and high-quality video games. Discover exclusive deals on popular titles and elevate your gaming experience without breaking the bank.">
+  <link rel="icon" href="/Assets/Images/Ico/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <div class="header-container">
+    <div class="logo-container">
+      <a href="/index.html" class="logo-link">
+        <img src="/Assets/Images/Logos/logo.png" alt="Logo" class="website-logo">
+      </a>
+      <a href="https://sx614x.mysellix.io" target="_blank" class="website-link" style="text-decoration: none;">
+        <div class="website-name">
+          Unreal Digital
+        </div>
+      </a>
+    </div>
+    <div class="header-text">
+      <h1>Red Dead Redemption 2 Ultimate Edition</h1>
+    </div>
+  </div>
+
+  <div id="loading-overlay">
+    <div class="loader"></div>
+</div>
+
+<div class="search-bar">
+  <div class="search-container">
+      <span class="material-symbols-outlined">search</span>
+      <input type="text" placeholder="Search..." id="searchInput">
+      <div class="search-dropdown" id="searchDropdown"></div>
+  </div>
+</div>
+
+
+<nav>
+  <ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/Assets/Html/Section/games.html" class="active">Games</a></li>
+    <li><a href="/Assets/Html/Section/News/Page/news.html">News</a></li>
+    <li><a href="/Assets/Html/Section/FAQ/Page/faq.html">FAQ</a></li>
+    <li><a href="/Assets/Html/Section/Release Notes/Page/release.html">Release Notes</a></li>
+    <li class="dropdown">
+      <a href="#">Services</a>
+      <div class="dropdown-content">
+        <a href="/Assets/Html/Section/Terms/Page/tos.html">Terms of Service</a>
+        <a href="/Assets/Html/Section/Terms/Page/policy.html">Policy</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+  <div class="game-overview-container">
+
+    <div class="game-image">
+      <img src="/Assets/Images/Game Covers/RDR2_Cover_Img.png" alt="RDR2" onclick="openModal('/Assets/Images/Game Covers/RDR2_Cover_Img.png')">
+    </div>
+
+    <div class="game-details-wrapper">
+      <div class="game-info-container">
+        <h2 class="game-title">Red Dead Redemption 2 Ultimate Edition</h2>
+        <p class="game-description-text">Experience the epic journey of Arthur Morgan in the vast open-world of the American Wild West.</p>
+
+        <div class="game-details-container">
+          <p class="game-details-text"><strong>Developer:</strong> Rockstar Games</p>
+          <p class="game-details-text"><strong>Publisher:</strong> Rockstar Games</p>
+          <p class="game-details-text"><strong>Release Date:</strong> December 5, 2019</p>
+          <p class="game-details-text"><strong>Platform:</strong> Pc</p>
+          <p class="game-details-text"><strong>Tags:</strong> Open World, Story Rich, Western, Adventure</p>
+        </div>
+
+        <div class="game-specs-container">
+          <h2 class="game-title">System Requirements</h2>
+          <ul class="game-specs-list">
+            <h3 class="game-specs-title">Minium:</h3>
+            <li class="game-specs-item">System Bit: 64-bit processor and operating system</li>
+            <li class="game-specs-item">OS: Windows 10 - April 2018 Update (v1803)</li>
+            <li class="game-specs-item">Processor: Intel® Core™ i7-4770K / AMD Ryzen 5 1500X</li>
+            <li class="game-specs-item">Memory: 12 GB RAM</li>
+            <li class="game-specs-item">Graphics: Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB</li>
+            <li class="game-specs-item">Network: Broadband Internet connection</li>
+            <li class="game-specs-item">Storage: 150 GB available space</li>
+            <li class="game-specs-item">Sound Card: Direct X Compatible</li>
+
+            <h3 class="game-specs-title">Recommended:</h3>
+            <li class="game-specs-item">System Bit: 64-bit processor and operating system</li>
+            <li class="game-specs-item">OS: Windows 10 - April 2018 Update (v1803)</li>
+            <li class="game-specs-item">Processor: Intel® Core™ i7-4770K / AMD Ryzen 5 1500X</li>
+            <li class="game-specs-item">Memory: 12 GB RAM</li>
+            <li class="game-specs-item">Graphics: Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB</li>
+            <li class="game-specs-item">Network: Broadband Internet connection</li>
+            <li class="game-specs-item">Storage: 150 GB available space</li>
+            <li class="game-specs-item">Sound Card: Direct X Compatible</li>
+            <div class="sale-price">$99.99</div>
+            <div class="current-price">$26.99</div>
+            <a href="/index.html" class="store-button">Visit Store</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <h2 class="game-title" style="text-align: center; font-size: 42px;">Trailers</h2>
+   
+  <div class="main-video-container">
+    <div class="video-wrapper">
+        <video controls>
+            <source src="/Assets/Html/Section/RDR2/Trailers/Red Dead Redemption 2 Trailer 1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-wrapper">
+        <video controls>
+            <source src="/Assets/Html/Section/RDR2/Trailers/Red Dead Redemption 2 Trailer 2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-wrapper">
+        <video controls>
+            <source src="/Assets/Html/Section/RDR2/Trailers/Red Dead Redemption 2 PC Launch Trailer.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<h2 class="game-title" style="text-align: center; font-size: 42px;">ScreenShots</h2>
+
+<div class="game-screenshots-container">
+
+    <div class="screenshot">
+        <img src="/Assets/Html/Section/RDR2/Screenshots/RDR2 ss1.jpg" alt="RDR2 ss1" onclick="openModal('/Assets/Html/Section/RDR2/Screenshots/RDR2 ss1.jpg')">
+    </div>
+
+    <div class="screenshot">
+      <img src="/Assets/Html/Section/RDR2/Screenshots/RDR2 ss2.jpg" alt="RDR2 ss2" onclick="openModal('/Assets/Html/Section/RDR2/Screenshots/RDR2 ss2.jpg')">
+  </div>
+
+  <div class="screenshot">
+    <img src="/Assets/Html/Section/RDR2/Screenshots/RDR2 ss3.jpg" alt="RDR2 ss3" onclick="openModal('/Assets/Html/Section/RDR2/Screenshots/RDR2 ss3.jpg')">
+</div>
+
+<div class="screenshot">
+  <img src="/Assets/Html/Section/RDR2/Screenshots/RDR2 ss4.jpg" alt="RDR2 ss4" onclick="openModal('/Assets/Html/Section/RDR2/Screenshots/RDR2 ss4.jpg')">
+</div>
+
+<div class="screenshot">
+  <img src="/Assets/Html/Section/RDR2/Screenshots/RDR2 ss5.jpg" alt="RDR2 ss5" onclick="openModal('/Assets/Html/Section/RDR2/Screenshots/RDR2 ss5.jpg')">
+</div>
+
+<div class="screenshot">
+  <img src="/Assets/Html/Section/RDR2/Screenshots/RDR2 ss6.jpg" alt="RDR2 ss6" onclick="openModal('/Assets/Html/Section/RDR2/Screenshots/RDR2 ss6.jpg')">
+</div>
+
+
+</div>
+
+
+
+  <h2 class="category-title">Detailed description</h2>
+
+  <div class="detailed-description">
+   <p> RDR2, as the game is affectionately known, was released for other platforms before the PC release, and this saw the game gaining the title of best-selling game of all time, before the PC game figures were included. The reason for the game’s popularity is not hard to see.
+
+    Unlike games where mayhem and destruction are key, this game allows you to sink into the beauty of the Wild West scenery, and to form empathic and sympathetic bonds with other players and NPCs (non-playing characters) in the moments between the action driven sequences – of which there are also many.
+    
+    You play as Arthur Morgan, a member of the Van der Linde Gang, and the linear storyline guides play through set story arcs, with Arthur completing missions and achieving objectives as he goes along, guided by the overall narrative.
+    
+    Once each mission is complete, Arthur is free to wander the open world, exploring widely and uncovering new places and, occasionally, stumbling onto his next mission which he can play through before returning to his original point to continue from there.
+    
+    Despite the tightly plotted story arcs, the game is strongly player driven, with your decisions deciding where the game will take you next. You can linger along each journey, catching villains committing crimes, helping people in distress and helping them with side missions, or you can pass them by, ignoring all the NPCs in your determination to get to your next destination.</p>
+  </div>
+  
+  
+
+
+  <div id="imagePreviewModal" class="modal" onclick="closeModal()">
+    <span class="close-modal" onclick="closeModal()">&times;</span>
+    <img id="imgPreview" class="modal-content" src="" alt="Image Preview">
+  </div>
+  
+
+  <div class="discord-container">
+    <img src="/Assets/Images/Logos/discord-logo.png" alt="Discord Logo" id="discord-logo" class="discord-logo">
+    <div class="discord-expanded" id="discord-expanded">
+      <h3>Join Our Discord</h3>
+      <p>Stay connected with our community for updates and support.</p>
+      <button class="discord-button join-now" onclick="window.open('https://discord.gg/jZ7pkBrSXp', '_blank')">Join Now</button>
+      <button class="discord-button close" id="close-button">Close</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Unreal Digital. All rights reserved.</p>
+    </div>
+  </footer>
+  <br>
+  <br>
+
+</body>
+
+</html>

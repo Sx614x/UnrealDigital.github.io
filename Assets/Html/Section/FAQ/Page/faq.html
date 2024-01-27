@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Assets/StyleSheets/style.css">
+  <!--Search--> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script defer src="/Assets/JavaScripts/discord.js"></script>
+  <script defer src="/Assets/JavaScripts/faq.js"></script>
+  <script defer src="/Assets/JavaScripts/loader.js"></script>
+  <script defer src="/Assets/JavaScripts/search.js"></script>
+  <title>Unreal Digital</title>
+  <meta name="description" content="Explore Unreal Digital for affordable and high-quality video games. Discover exclusive deals on popular titles and elevate your gaming experience without breaking the bank.">
+  <link rel="icon" href="/Assets/Images/Ico/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <div class="header-container">
+    <div class="logo-container">
+      <a href="/index.html" class="logo-link">
+        <img src="/Assets/Images/Logos/logo.png" alt="Logo" class="website-logo">
+      </a>
+      <a href="https://sx614x.mysellix.io" target="_blank" class="website-link" style="text-decoration: none;">
+        <div class="website-name">
+          Unreal Digital
+        </div>
+      </a>
+    </div>
+    <div class="header-text">
+      <h1>FAQ</h1>
+    </div>
+  </div>
+
+  <div id="loading-overlay">
+    <div class="loader"></div>
+</div>
+
+<div class="search-bar">
+  <div class="search-container">
+      <span class="material-symbols-outlined">search</span>
+      <input type="text" placeholder="Search..." id="searchInput">
+      <div class="search-dropdown" id="searchDropdown"></div>
+  </div>
+</div>
+
+
+<nav>
+  <ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/Assets/Html/Section/games.html">Games</a></li>
+    <li><a href="/Assets/Html/Section/News/Page/news.html">News</a></li>
+    <li><a href="/Assets/Html/Section/FAQ/Page/faq.html" class="active">FAQ</a></li>
+    <li><a href="/Assets/Html/Section/Release Notes/Page/release.html">Release Notes</a></li>
+    <li class="dropdown">
+      <a href="#">Services</a>
+      <div class="dropdown-content">
+        <a href="/Assets/Html/Section/Terms/Page/tos.html">Terms of Service</a>
+        <a href="/Assets/Html/Section/Terms/Page/policy.html">Policy</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+
+<div class="faq-box" onclick="toggleFAQ(this)">
+  <h3 class="faq-question">Are Purchases Safe?</h3>
+  <div class="faq-answer">
+    <p>All purchases are conducted securely through Sellix, utilizing encrypted and safe platforms for selling digital goods.</p>
+  </div>
+</div>
+
+<div class="faq-box" onclick="toggleFAQ(this)">
+  <h3 class="faq-question">How to Make a Purchase?</h3>
+  <div class="faq-answer">
+    <p>Making a purchase is simple. Browse our collection, add your chosen items to the cart, and proceed to checkout. Follow the easy steps to complete your purchase securely.</p>
+  </div>
+</div>
+
+<div class="faq-box" onclick="toggleFAQ(this)">
+  <h3 class="faq-question">What is the Refund Policy?</h3>
+  <div class="faq-answer">
+    <p>We typically don't process refunds once a key has been activated. However, if you encounter technical issues or the game doesn't work as expected, we may consider a refund. To initiate the refund process, please submit a support ticket on our Discord server and provide video proof of the issue. Refunds are not applicable for change of mind or if the game doesn't meet personal preferences. Please review your order carefully before completing the purchase. For more details, refer to our <a href="terms-of-service.html" class="faq-link">Terms of Service</a>.</p>
+  </div>
+</div>
+
+<div class="faq-box" onclick="toggleFAQ(this)">
+  <h3 class="faq-question">How to Contact Support?</h3>
+  <div class="faq-answer">
+    <p>Support is only offered through our Discord. Join our Discord server and reach out to our support team for assistance with any concerns or queries.</p>
+  </div>
+</div>
+
+<div class="faq-box" onclick="toggleFAQ(this)">
+  <h3 class="faq-question">Can I Change My Order?</h3>
+  <div class="faq-answer">
+    <p>Unfortunately, once an order is placed, it cannot be changed. Please review your order carefully before completing the purchase.</p>
+  </div>
+</div>
+
+<div class="faq-box" onclick="toggleFAQ(this)">
+  <h3 class="faq-question">What Platforms are Supported?</h3>
+  <div class="faq-answer">
+    <p>We exclusively support PC as our gaming platform. Check our product descriptions for compatibility with PC.</p>
+  </div>
+</div>
+
+<div class="faq-box" onclick="toggleFAQ(this)">
+  <h3 class="faq-question">Do You Offer Game Demos?</h3>
+  <div class="faq-answer">
+    <p>We do not offer game demos for OBS reasons. Stay tuned for promotional events where you may have opportunities to try out new games.</p>
+  </div>
+</div>
+
+<div class="faq-box" onclick="toggleFAQ(this)">
+  <h3 class="faq-question">How to Redeem Game Codes?</h3>
+  <div class="faq-answer">
+    <p>Redeeming game codes is simple. Follow the instructions provided with your purchase to activate and enjoy your new game.</p>
+  </div>
+</div>
+
+<div class="faq-box" onclick="toggleFAQ(this)">
+  <h3 class="faq-question">Are Digital Copies the Same as Physical Copies?</h3>
+  <div class="faq-answer">
+    <p>Yes, digital copies of games offer the same content as physical copies. The only difference is the delivery method.</p>
+  </div>
+</div>
+
+<div class="faq-box" onclick="toggleFAQ(this)">
+  <h3 class="faq-question">Can I Suggest Games for Your Collection?</h3>
+  <div class="faq-answer">
+    <p>Absolutely! We value your suggestions. Suggest games you would love through our Discord, and we'll consider adding them to our collection.</p>
+  </div>
+</div>
+
+<div class="faq-box" onclick="toggleFAQ(this)">
+  <h3 class="faq-question">Who Developed the Website and UI?</h3>
+  <div class="faq-answer">
+    <p>The Unreal Digital website and its user interface were created by Sx614x as the lead developer.</p>
+    <p>Our Discord community is supported by a dedicated team to ensure a great experience both on the website and within our Discord server.</p>
+  </div>
+</div>
+
+
+
+
+  <div class="discord-container">
+    <img src="/Assets/Images/Logos/discord-logo.png" alt="Discord Logo" id="discord-logo" class="discord-logo">
+    <div class="discord-expanded" id="discord-expanded">
+      <h3>Join Our Discord</h3>
+      <p>Stay connected with our community for updates and support.</p>
+      <button class="discord-button join-now" onclick="window.open('https://discord.gg/jZ7pkBrSXp', '_blank')">Join Now</button>
+      <button class="discord-button close" id="close-button">Close</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Unreal Digital. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

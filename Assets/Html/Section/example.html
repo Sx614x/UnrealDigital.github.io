@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Assets/StyleSheets/style.css">
+  <!--Search--> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script defer src="/Assets/JavaScripts/discord.js"></script>
+  <script defer src="/Assets/JavaScripts/loader.js"></script>
+  <script defer src="/Assets/JavaScripts/search.js"></script>
+  <title>Unreal Digital</title>
+  <meta name="description" content="Explore Unreal Digital for affordable and high-quality video games. Discover exclusive deals on popular titles and elevate your gaming experience without breaking the bank.">
+  <link rel="icon" href="/Assets/Images/Ico/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <div class="header-container">
+    <div class="logo-container">
+      <a href="/index.html" class="logo-link">
+        <img src="/Assets/Images/Logos/logo.png" alt="Logo" class="website-logo">
+      </a>
+      <a href="https://sx614x.mysellix.io" target="_blank" class="website-link" style="text-decoration: none;">
+        <div class="website-name">
+          Unreal Digital
+        </div>
+      </a>
+    </div>
+    <div class="header-text">
+      <h1>Home</h1>
+    </div>
+  </div>
+
+  <div id="loading-overlay">
+    <div class="loader"></div>
+</div>
+
+<div class="search-bar">
+  <div class="search-container">
+      <span class="material-symbols-outlined">search</span>
+      <input type="text" placeholder="Search..." id="searchInput">
+      <div class="search-dropdown" id="searchDropdown"></div>
+  </div>
+</div>
+
+
+<nav>
+  <ul>
+    <li><a href="/index.html" class="active">Home</a></li>
+    <li><a href="/Assets/Html/Section/games.html">Games</a></li>
+    <li><a href="/Assets/Html/Section/News/Page/news.html">News</a></li>
+    <li><a href="/Assets/Html/Section/FAQ/Page/faq.html">FAQ</a></li>
+    <li><a href="/Assets/Html/Section/Release Notes/Page/release.html">Release Notes</a></li>
+    <li class="dropdown">
+      <a href="#">Services</a>
+      <div class="dropdown-content">
+        <a href="/Assets/Html/Section/Terms/Page/tos.html">Terms of Service</a>
+        <a href="/Assets/Html/Section/Terms/Page/policy.html">Policy</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+ 
+  
+
+   
+
+  <div class="discord-container">
+    <img src="/Assets/Images/Logos/discord-logo.png" alt="Discord Logo" id="discord-logo" class="discord-logo">
+    <div class="discord-expanded" id="discord-expanded">
+      <h3>Join Our Discord</h3>
+      <p>Stay connected with our community for updates and support.</p>
+      <button class="discord-button join-now" onclick="window.open('https://discord.gg/jZ7pkBrSXp', '_blank')">Join Now</button>
+      <button class="discord-button close" id="close-button">Close</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Unreal Digital. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

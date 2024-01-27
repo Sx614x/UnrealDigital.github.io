@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Assets/StyleSheets/style.css">
+  <!--Search--> <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script defer src="/Assets/JavaScripts/discord.js"></script>
+  <script defer src="/Assets/JavaScripts/modal.js"></script>
+  <script defer src="/Assets/JavaScripts/loader.js"></script>
+  <script defer src="/Assets/JavaScripts/search.js"></script>
+   <title>Unreal Digital</title>
+  <meta name="description" content="Explore Unreal Digital for affordable and high-quality video games. Discover exclusive deals on popular titles and elevate your gaming experience without breaking the bank.">
+  <link rel="icon" href="/Assets/Images/Ico/logo.ico" type="image/x-icon">
+</head>
+
+<div id="imagePreviewModal" class="modal" onclick="closeModal()">
+  <span class="close-modal">&times;</span>
+  <img id="imgPreview" class="modal-content" alt="Image Preview">
+</div>
+
+<body>
+
+  <div class="header-container">
+    <div class="logo-container">
+      <a href="/index.html" class="logo-link">
+        <img src="/Assets/Images/Logos/logo.png" alt="Logo" class="website-logo">
+      </a>
+      <a href="https://sx614x.mysellix.io" target="_blank" class="website-link" style="text-decoration: none;">
+        <div class="website-name">
+          Unreal Digital
+        </div>
+      </a>
+    </div>
+    <div class="header-text">
+      <h1>Games</h1>
+    </div>
+  </div>
+
+  <div id="loading-overlay">
+    <div class="loader"></div>
+</div>
+
+<div class="search-bar">
+  <div class="search-container">
+      <span class="material-symbols-outlined">search</span>
+      <input type="text" placeholder="Search..." id="searchInput">
+      <div class="search-dropdown" id="searchDropdown"></div>
+  </div>
+</div>
+
+
+<nav>
+  <ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/Assets/Html/Section/games.html" class="active">Games</a></li>
+    <li><a href="/Assets/Html/Section/News/Page/news.html">News</a></li>
+    <li><a href="/Assets/Html/Section/FAQ/Page/faq.html">FAQ</a></li>
+    <li><a href="/Assets/Html/Section/Release Notes/Page/release.html">Release Notes</a></li>
+    <li class="dropdown">
+      <a href="#">Services</a>
+      <div class="dropdown-content">
+        <a href="/Assets/Html/Section/Terms/Page/tos.html">Terms of Service</a>
+        <a href="/Assets/Html/Section/Terms/Page/policy.html">Policy</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+
+  <main>
+    <div class="game-category">
+        <h2 class="category-title">Red Dead Redemption 2</h2>
+        <div class="game-container">
+
+          <div class="game">
+            <div class="game-img-container">
+           
+              <img src="/Assets/Images/Game Covers/RDR2_Cover_Img.png" alt="RDR2" onclick="openModal('/Assets/Images/Game Covers/RDR2_Cover_Img.png')">
+            </div>
+            <a href="/Assets/Html/Section/gta_v.html">
+              <div class="game-details">
+                <div class="game-name">Red Dead Redemption 2 Ultimate Edition</div>
+                <div class="game-description">Embark on an epic journey in the wild west with Arthur Morgan. Explore a vast open world, encounter diverse characters, and shape your own path as an outlaw.</div>
+                <div class="right-sticker">Sale!</div>
+                <div class="sale-price">$99.99</div>
+                <div class="current-price">$26.99</div>
+                <a href="/Assets/Html/Section/RDR2/Overview/rdr2.html" class="btn">Overview</a>
+              </div>
+            </a>
+          </div>
+        
+        
+
+           
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="game-category">
+        <h2 class="category-title">Grand Theft Auto</h2>
+        <div class="game-container">
+
+            <div class="game">
+                <a href="/Assets/Html/Section/gta_v.html">
+                    <img src="/Assets/Images/Game Covers/GTA V_Cover_Img.png" alt="GTA V">
+                    <div class="game-name">GTA V</div>
+                    <div class="game-description">Explore the fictional state of San Andreas in this action-packed adventure.</div>
+                </a>
+            </div>
+
+            <div class="game">
+                <a href="/Assets/Html/Section/gta_san_andreas.html">
+                    <img src="/Assets/Images/Game Covers/GTA IV_Cover_Img.png" alt="GTA IV Cover">
+                    <div class="game-name">GTA IV</div>
+                    <div class="game-description">Immerse yourself in the criminal underworld of Liberty City.</div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="game-category">
+      <h2 class="category-title">Resident Evil</h2>
+      <div class="game-container">
+
+          <div class="game">
+              <a href="/Assets/Html/Section/gta_v.html">
+                  <img src="/Assets/Images/Game Covers/Re4 (2005)_Cover_Img.png" alt="Re4 (2005)">
+                  <div class="game-name">Resident Evil 4 (2005)</div>
+                  <div class="game-description">resident evil 4, special agent Leon S. Kennedy is sent on a mission to rescue the U.S. President's daughter who has been kidnapped. Finding his way to a rural village in Europe, he faces new threats that are a departure from the traditional lumbering zombie enemies of the earlier instalments in the series.</div>
+              </a>
+          </div>
+
+          <div class="game">
+              <a href="/Assets/Html/Section/gta_san_andreas.html">
+                  <img src="/Assets/Images/Game Covers/Re5_Cover_Img.png" alt="GTA IV Cover">
+                  <div class="game-name">Resident Evil 5</div>
+                  <div class="game-description">Immerse yourself in the criminal underworld of Liberty City.</div>
+              </a>
+          </div>
+
+      </div>
+  </div>
+
+  <hr>
+
+</main>
+
+<div id="imagePreviewModal" class="modal" onclick="closeModal()">
+  <span class="close-modal" onclick="closeModal()">&times;</span>
+  <img id="imgPreview" class="modal-content" src="" alt="Image Preview">
+</div>
+
+  <div class="discord-container">
+    <img src="/Assets/Images/Logos/discord-logo.png" alt="Discord Logo" id="discord-logo" class="discord-logo">
+    <div class="discord-expanded" id="discord-expanded">
+      <h3>Join Our Discord</h3>
+      <p>Stay connected with our community for updates and support.</p>
+      <button class="discord-button join-now" onclick="window.open('https://discord.gg/jZ7pkBrSXp', '_blank')">Join Now</button>
+      <button class="discord-button close" id="close-button">Close</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Unreal Digital. All rights reserved.</p>
+    </div>
+  </footer>
+
+  
+
+</body>
+
+</html>
